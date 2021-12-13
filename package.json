@@ -1,12 +1,11 @@
 {
-  "name": "08.fetch-bitcoin",
+  "name": "animais-fantasticos",
   "version": "1.0.0",
   "main": "index.html",
   "scripts": {
     "build": "webpack --mode production",
     "dev": "webpack --mode development --watch"
   },
-  "author": "",
   "license": "ISC",
   "dependencies": {
     "eslint-config-prettier": "^8.3.0"
