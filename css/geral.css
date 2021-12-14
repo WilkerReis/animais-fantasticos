@@ -7,7 +7,8 @@ body, h1, h2, ul, li, p, dl, dt, dd {
 
 img {
     display: block;
-    max-width: 100%;    /*mantém a largura máxima da imagem como 100% do seu tamanho original e a mínima dependerá da viewport tornando a imagem responsiva*/
+    max-width: 100%;    
+    /*mantém a largura máxima da imagem como 100% do seu tamanho original e a mínima dependerá da viewport tornando a imagem responsiva*/
 }
 
 ul {
@@ -164,7 +165,6 @@ body {
 
 .mapa {
     grid-column: 2;
-
 }
 
 .dados {
@@ -216,7 +216,7 @@ body {
     }
 
     .faq-lista, .dados, .mapa {
-        grid-columns: 1/3;
+        grid-column: 1/3;
     }
 
     .grid-section h1 {
